@@ -1,9 +1,18 @@
 // while loop
 #include <stdio.h>
 int main(){
-    int a=10;
-    while (a<20){
-        printf("Your system is hacked check your task bar . i WILL STEAL YOU GF");
+   char a[3];
+   while (a[0]!='Q'){
+       puts("Enter something");
+       scanf("%2s",a);
+       printf("you got it");
+       if (a[0]=='A'){
+           printf("respect ++");
+            break;
+       }
+
+   }
+
         
-    }
+   return 0;
 }
